@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "upheavtt";
+    src:url("upheavtt.ttf") format("truetype");
+   }
+/* Change Autocomplete styles in Chrome*/
+
+body{
+    background-color: #2c2c2c;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+form{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    position: relative;
+    background-color: #2c2c2c;
+    color: aliceblue;
+    font-family: "upheavtt";
+}
+
+img{
+    position: absolute;
+    transform: translate(-50%,0%);
+    left: 50%;
+height: 100vh;
+}
+h1{
+    position: absolute;
+    transform: translate(-50%,0%);
+    left: 50%;
+    top: 40%;
+    z-index: 10;
+    font-family: "upheavtt";
+    font-size: 2.0em;
+}
+input{
+    background-color: #2c2c2c;
+       border-radius: 20px;
+       padding: 10px 5px 5px 70px;
+       color: white;
+       font-family: "upheavtt";
+
+   
+   }
+
+
+div a{
+   
+    color:#2c2c2c;
+    text-decoration: none;
+    font-family: "upheavtt";
+    z-index: -2;
+}
+
+ #test div{
+    position: absolute;
+
+}  
